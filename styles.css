@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh; 
+}
+
+/* Lado esquerdo */
+
+aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,87,121,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-size: cover;
+    border: solid 4px #29ADB2;
+}
+
+.menu-bar ul a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -45px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.menu-bar ul a:hover {
+    color: aqua;
+}
+
+
+/* Lado direto */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+    width: 80vw;
+    height: 100vh;
+    background-color:#FAF023;
+}
+
+#about {
+    padding-left: 25px;
+}
+
+h1 {
+    margin-top: -3px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    color:  #1e5fac;   
+}
+
+#information {
+    line-height: 5px;
+}
+
+#information a {
+    text-decoration: none;
+    font-size: 14px
+}
+
+#career li {
+  font-weight: 700;
+}
+#career b {
+    color: blue;
+}
+
+#social-network img {
+    width: 40px;
+    padding-right: 7px;
+    padding-top: 10px;
+}
+
+#Knowledge a{
+    display: flex;
+    align-items: end;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 15px;   
+    font-weight: 500;
+} 
+
+#Knowledge a:hover{
+    color: blue;
+}
+
+#Knowledge img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
