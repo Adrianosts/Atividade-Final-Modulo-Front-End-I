@@ -6,11 +6,6 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 
-.container {
-    display: flex;
-    width: 100vw;
-    height: 100vh; 
-}
 
 /* Lado esquerdo */
 
@@ -19,10 +14,9 @@ aside {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 20vw;
     height: 100vh;
     background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,87,121,1) 43%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgb(19, 15, 95) 0%, rgba(9,87,121,1) 43%, rgba(0,212,255,1) 100%);
 }
 
 .foto {
@@ -31,6 +25,7 @@ aside {
     border-radius: 50%;
     background-size: cover;
     border: solid 4px #29ADB2;
+    margin-bottom: 20px;
 }
 
 .menu-bar ul a{
@@ -43,6 +38,7 @@ aside {
     font-size: 17px;
     font-weight: 700;
     color: white;
+    text-transform: uppercase;
 }
 
 .menu-bar ul a:hover {
@@ -58,9 +54,9 @@ main {
     flex-direction: column;
     align-items: start;
     padding-left: 50px;
-    width: 80vw;
+   
     height: 100vh;
-    background-color:#FAF023;
+    background-color:#f7f29e;
 }
 
 #about {
@@ -72,6 +68,14 @@ h1 {
     padding-bottom: 10px;
     font-size: 60px;
     color:  #1e5fac;   
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    margin-top: 10px;
 }
 
 #information {
